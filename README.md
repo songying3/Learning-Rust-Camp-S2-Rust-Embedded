@@ -1,6 +1,5 @@
 # Learning Rust Camp S2 (Rust Embedded) “让 Rust 在芯片上跑起来”
 
-- 时间：2025/08/17-2025/09/06
 - [训练营主页](https://opencamp.cn/Rust/camp/S02)
 
 训练营的所有软件都在 EchoKit 上运行，[168 元押金租借使用方案](https://opencamp.ai/Rust/bbs/2)
@@ -25,3 +24,6 @@ EchoKit 是一个基于 ESP32 的智能语音设备，能让用户以语音与�
 功能丰富的 Wi-Fi & 蓝牙 MCU，适用于多样的物联网应用，由乐鑫科技开发
 
 官网 [ESP32 Wi-Fi & 蓝牙 SoC｜乐鑫科技](https://www.espressif.com/zh-hans/products/socs/esp32)
+
+芯片：真正的 ESP32。开发板：常说的 ESP32
+<img src="https://files.catbox.moe/5u0rfc.jpg" alt="芯片、模组、开发板" width="800">
