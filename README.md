@@ -21,9 +21,27 @@ EchoKit 是一个基于 ESP32 的智能语音设备，能让用户以语音与�
 
 ## ESP32
 
-功能丰富的 Wi-Fi & 蓝牙 MCU，适用于多样的物联网应用，由乐鑫科技开发
+# [Stage 0: 导学 - Rust SDK for ESP32](https://opencamp.cn/Rust/camp/S02/stage/0)
 
-官网 [ESP32 Wi-Fi & 蓝牙 SoC｜乐鑫科技](https://www.espressif.com/zh-hans/products/socs/esp32)
+## 介绍 ESP32 [认识ESP32—1.1 ESP32介绍_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1u861YHEso)
 
-芯片：真正的 ESP32。开发板：常说的 ESP32
-<img src="https://files.catbox.moe/5u0rfc.jpg" alt="芯片、模组、开发板" width="800">
+**ESP32：功能丰富的 Wi-Fi & 蓝牙 MCU**，适用于多样的物联网应用，由乐鑫科技开发。乐鑫官网 [ESP32 Wi-Fi & 蓝牙 SoC｜乐鑫科技](https://www.espressif.com/zh-hans/products/socs/esp32)
+
+**芯片**：真正的 ESP32。**开发板：常说的 ESP32** <img src="https://files.catbox.moe/5u0rfc.jpg" alt="芯片、模组、开发板" width="800">
+
+**开发环境**
+* **esp-idf** 乐鑫官方的，最底层，最好学这个用这个，官方文档也非常详细（[ESP-IDF 编程指南 - ESP32 - — ESP-IDF 编程指南 v5.5 文档](https://docs.espressif.com/projects/esp-idf/zh_CN/stable/esp32/index.html)）
+	* arduino-esp 乐鑫官方的，开发速度比较快，生态也不错
+* micropython Python 对接，适合简单快速开发，运行效率一般
+
+**心法**
+1. 迅速掌握基本开发知识，不拘泥于小细节
+2. 以官方文档作为主要参考，视频教程作为辅助
+3. 用好官方提供的例程代码
+4. 以项目驱动学习（费曼学习法）
+	1. 项目
+	2. → 某个模块
+	3. → 基础概念（通过百度 / 视频学习）
+	4. → 官方文档（以视频作为辅助）
+	5. → 官方例程（以视频作为辅助）
+	6. → 学会某个功能或模块
